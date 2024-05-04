@@ -26,7 +26,7 @@ public class Arithmetic {
     public static void main(String[] args) {
         System.out.println("Give me a number! (no decimals, please)");
         int num1 = StdIn.readInt();
-        System.out.println("Give me another number! (still no decimals )");
+        System.out.println("Give me another number! (still no decimals)");
         int num2 = StdIn.readInt();
 
         System.out.println("The product of " + num1 + " and " + num2 + " is: " + product(num1, num2));
